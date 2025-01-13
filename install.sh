@@ -1,5 +1,5 @@
 #!/bin/bash
-
+nmcli device wifi connect "daffodilsez_5gz" password RockOn4321
 firefox https://172.18.1.1:8090
 
 echo "Script started."
