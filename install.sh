@@ -17,6 +17,7 @@ command_exists() {
 # Update package list
 echo "Updating package list..."
 sudo apt update
+sudo apt install wget curl -y
 
 # Install Google Chrome
 if ! command_exists google-chrome; then
